@@ -13,7 +13,7 @@
 	<h1>Hello World!</h1>
 	<sql:setDataSource
 		var="xcon" driver="com.mysql.jdbc.Driver"
-		url="jdbc:mysql://localhost/jsp_test_lab09" // jdbc:mysql://localhost/{nombre_bd}/
+		url="jdbc:mysql://localhost/jsp_test_lab09" <%--jdbc:mysql://localhost/{nombre_bd}/--%>
 		user="root"
 		password=""
 	/>
